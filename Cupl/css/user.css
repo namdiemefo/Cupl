@@ -1,10 +1,4 @@
-#sidenav {
-    background-color: black;
-    width: 250px;
-    height: 100%;
-    position: absolute;
-}
-
+/*Beginning of User page*/
 #list {
     padding-bottom: 500px;
 }
@@ -17,12 +11,24 @@
     background-color: black;
     z-index: 1000;
 }
+.sidenav .navbar-nav{
+    list-style: none;
+    flex: left;
+    flex-direction: column;
+    margin:0;
+}
+
+.sidenav .navbar-nav li{
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+}
 
 .sidenav a {
     text-indent: 20px;
-    line-height: 80px;
+    line-height: 40px;
     color: #999999;
-    font-size: px;
+    /*font-size: px;*/
     display: block;
 }
 
@@ -73,3 +79,5 @@ td {
 #register {
     position: inherit;
 }
+
+/*End of User page*/
